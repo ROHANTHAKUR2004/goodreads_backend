@@ -1,3 +1,9 @@
+## Seed the database
+- Run the following command to seed the database
+```
+npm run seed
+```
+
 ## APIs
 
 - Sign up

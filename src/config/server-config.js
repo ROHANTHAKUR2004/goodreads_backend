@@ -3,8 +3,8 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 module.exports = {
-    PORT: process.env.PORT,
-    DB_URL: process.env.DB_URL,
-    JWT_SECRET: process.env.JWT_SECRET,
-    JWT_EXPIRY: process.env.JWT_EXPIRY
+    PORT: 3005,
+    DB_URL: 'mongodb+srv://kenilyt107:kenilyt107@demo.cdoulbw.mongodb.net/goodreadsDemo',
+    JWT_SECRET: 'goodreads_secret_jwt',
+    JWT_EXPIRY: '24h'
 }
